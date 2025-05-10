@@ -46,3 +46,6 @@ st.subheader("The Chat History is")
     
 for role, text in st.session_state['chat_history']:
     st.write(f"{role}: {text}")
+
+st.text("NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent.\n"
+"Inconvenience caused is deeply regretted")
